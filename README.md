@@ -4,7 +4,7 @@
 
 <div align="Center">
 <h1>Polygon Wiki</h1>
-<h3> Previously Matic Network </h3>
+<h3> Formerly Matic Network </h3>
 </div>
 
 <br>
@@ -19,29 +19,28 @@
 [![Discord](https://img.shields.io/discord/714888181740339261?color=1C1CE1&label=Polygon%20%7C%20Discord%20%F0%9F%91%8B%20&style=flat-square)](https://discord.gg/zdwkdvMNY2)
 [![Twitter Follow](https://img.shields.io/twitter/follow/0xPolygon.svg?style=social)](https://twitter.com/0xPolygon)
 
-Polygon is a scaling solution for public blockchains that combines the best of Ethereum and sovereign blockchains 
+Polygon is a scaling solution for public blockchains, combining the best of Ethereum and sovereign blockchains 
 to offer a full-stack scaling solution.
 
 The [Polygon Wiki](https://docs.polygon.technology/) is built using [Docusaurus](https://docusaurus.io/), 
-a modern static website generator.
+a modern static site generator.
 
-## How to Contribute to Polygon Wiki
+## How to contribute to the Polygon Wiki
 
-We believe one of the things that makes Polygon unique is its coherent design, and we seek to retain this defining 
-characteristic. We have defined some guidelines to ensure new contributions only ever enhance the 
-Wiki from the outset.
+One of the things we believe makes Polygon unique is its coherent design, and we seek to preserve this defining 
+characteristic. From the outset, we defined some guidelines to ensure all new contributions always serve to enhance the Wiki.
 
 ### Requirements
 
 * Install [Node.js](https://nodejs.org/en/download/) version >= 12.13
 * Install [Yarn](https://yarnpkg.com/getting-started/install) version >= 1.5  
 
-> Note that on macOS you also need Xcode and Command Line Tools.
+> Note that on macOS, you also need Xcode and Command Line Tools.
 
 ### Run the Wiki locally
 
 1. Fork the repo. 
-   > For help, refer to [GitHub Docs: Fork a repo](https://help.github.com/en/articles/fork-a-repo).
+   > For more assistance, see [GitHub Docs: Fork a repo](https://help.github.com/en/articles/fork-a-repo).
    
 2. Clone your forked repo.
    
@@ -56,14 +55,14 @@ Wiki from the outset.
     ```
 
 4. Link your cloned repo to the upstream repo.
-   > For help, see [GitHub Docs: Configuring a remote for a fork](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/configuring-a-remote-for-a-fork).
+   > For more assistance, see [GitHub Docs: Configuring a remote for a fork](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/configuring-a-remote-for-a-fork).
    
     ```
     git remote add upstream https://github.com/maticnetwork/matic-docs
     ```
 
 5. If you have already cloned the repository, be sure to sync your fork with the latest changes. 
-   > For help, refer to [GitHub Docs: Syncing a fork](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork).
+   > For more assistance, see [GitHub Docs: Syncing a fork](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork).
 
     ```
     git checkout master
@@ -99,8 +98,8 @@ Wiki from the outset.
 
 ### Make changes using Git GUI and code editor
 
-After running the Wiki locally on your machine, use a code editor to apply your changes before submitting 
-your PR. Note that you must have a GitHub account and an understanding of Markdown syntax.
+Once the Wiki is running locally on your machine, use a code editor to apply your changes before submitting 
+your pull request (PR). Note that you must have a GitHub account and an understanding of [Markdown](https://daringfireball.net/projects/markdown/) syntax.
 
 1. Create a new branch for your changes.
    
@@ -108,9 +107,9 @@ your PR. Note that you must have a GitHub account and an understanding of Markdo
     git checkout -b [new_branch_name]
     ```
 
-2. Commit your changes. Please be sure to review our [Git Rules](https://docs.polygon.technology/docs/contribute/orientation#git-rules). 
+2. Commit your changes. Please be sure to review our [Git Rules](https://docs.polygon.technology/docs/contribute/orientation#git-rules) relating to pull requests and commits. 
    In the commit message, please reference the issue it resolves. 
-   For help, see [GitHub Docs: Linking a pull request to an issue using a keyword](https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword).
+   For more assistance, see [GitHub Docs: Linking a pull request to an issue using a keyword](https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword).
 
     ```
     git commit -m "brief description of changes [Fixes #1234]"
@@ -128,11 +127,11 @@ your PR. Note that you must have a GitHub account and an understanding of Markdo
    > For example, if you want to suggest edits to the "Getting Started" page, name your PR: *Update /docs/develop/getting-started.md*.
    
 6. Add a description to your PR. Please reference the issue it resolves. 
-   > For help, see [GitHub Docs: Linking a pull request to an issue using a keyword](https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword).
+   > For more assistance, see [GitHub Docs: Linking a pull request to an issue using a keyword](https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword).
    
 7. Write a brief description of the changes you have made. If possible, include screenshots and references.
 
-You can apply UI changes, sidebar, and configuration design through the following files:
+You can apply changes to UI, sidebar and configuration design through the following files:
 
 - To modify the **Sidebar** navigation, edit **sidebars.js**
 - To modify the website page layout, edit **docusaurus.config.js**
@@ -140,32 +139,33 @@ You can apply UI changes, sidebar, and configuration design through the followin
 
 ### Making changes using the Wiki website
 
-You can easily submit an edit suggestion. Note that you must have a GitHub account and good knowledge of Markdown syntax.
+Submitting an edit suggestion for the Wiki is simple. Note that you must have a GitHub account and an understanding of [Markdown](https://daringfireball.net/projects/markdown/) syntax.
 
-1. Navigate to the [Polygon Wiki page](https://docs.polygon.technology/) that you want to edit.
+1. Navigate to the [Polygon Wiki page](https://docs.polygon.technology/) that you want to edit
 2. Scroll down until the end of that page
-3. Click on the link: **Edit this page**. It will forward you to the same page (Markdown format) hosted on GitHub.
-4. On the related GitHub page, click the pencil icon (similar to  ) near the upper right corner of the file
+3. Click on the link: **Edit this page**. It will redirect you to a new tab with the same page (in Markdown format) hosted on GitHub
+4. On the related GitHub page, click the pencil icon in the upper right corner of the file
 5. Apply your edits by modifying the Markdown file
-6. After you finish, scroll down until the end of that page to create a pull request 
-7. Add a title to your PR. For example, if you want to suggest edits to the "Getting Started" page, name your PR: 
-   *Update /docs/develop/getting-started.md*.
-8. Add a description to your PR. Please reference the issue it resolves. 
-   > For help, see [GitHub Docs: Linking a pull request to an issue using a keyword](https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword).
-9.  Write a brief description of the changes you have made. If possible, include screenshots and references.
+6. After you finish, scroll down to the bottom of that page to create a pull request (PR)
+7. Add a title to your PR. 
+   > For example, if you want to suggest edits to the "Getting Started" page, name your PR: 
+   *Update /docs/develop/getting-started.md*
+8. Add a description to your PR. Please reference the issue it resolves
+   > For more assistance, see [GitHub Docs: Linking a pull request to an issue using a keyword](https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword)
+9.  Write a brief description of the changes you have made. If possible, include screenshots and references
 10. Click on the green button **Propose changes** to submit your changes. Note that submitting a change will write 
-    it to a new branch in your fork.
+    it to a new branch in your fork
 
 One of the Wiki maintainers will review your PR and either accept it or submit our review. 
-Acceptable PRs will be approved & merged into the `master` branch.
+Acceptable PRs will be approved and merged into the `master` branch.
 
-## Submit an Issue
+## Submit an issue
 
 - Create a [new issue](https://github.com/maticnetwork/matic-docs/issues/new/choose) to report a bug, request a feature, 
-  or suggest changes.
-- Comment on the issue if you want to be assigned to it so [our team can assign the issue to you](https://github.blog/2019-06-25-assign-issues-to-issue-commenters/).
-- If you do not have a specific contribution in mind, you can also browse current issues.
-- Issues that additionally have the `good first issue` label are considered ideal for first-timers.
+  or suggest changes
+- Comment on the issue if you want it to be assigned to you, in order for [our team to assign the issue to you](https://github.blog/2019-06-25-assign-issues-to-issue-commenters/)
+- If you do not have a specific contribution in mind, you can also browse current issues
+- Issues that include the `good first issue` label are considered ideal for first-timers
 
 ## Build
 
@@ -179,7 +179,7 @@ yarn build
 ## Deployment
 
 If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the 
-`gh-pages` branch.
+`gh-pages` branch:
 
 ```
 GIT_USER=[your_github_handle] USE_SSH=true yarn deploy
